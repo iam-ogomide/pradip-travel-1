@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const Page = () => {
+const Category = () => {
   return (
-    <View style={{flex:1, alignItems:'center',justifyContent:'center'}}>
-      <Text>Page</Text>
+    <View>
+      <Text>Category</Text>
     </View>
   )
 }
 
-export default Page
+export default Category
 
 const styles = StyleSheet.create({})

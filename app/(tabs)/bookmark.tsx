@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const Page = () => {
+const Bookmark = () => {
   return (
-    <View style={{flex:1, alignItems:'center',justifyContent:'center'}}>
-      <Text>Page</Text>
+    <View>
+      <Text>Bookmark</Text>
     </View>
   )
 }
 
-export default Page
+export default Bookmark
 
 const styles = StyleSheet.create({})
